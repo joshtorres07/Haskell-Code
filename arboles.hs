@@ -36,7 +36,7 @@ postOrden(Nodo x l r) = postOrden l ++ postOrden r ++ [x]
 arbol = Nodo 'b' (Nodo 'a' Hoja Hoja) (Nodo 'c' Hoja Hoja)
 main = do 
  print(arbol)
- print("Hojas arbol" ++Show(nHojas arbol))
+ print(nHojas arbol )
  print(nNodos arbol)
  print(profundidad arbol)
  print(preorden arbol)
