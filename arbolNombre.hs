@@ -7,7 +7,7 @@ arbol :: Arbol Char
 
 
 --Contar numero de hojas
-
+--count
 nHojas :: Arbol a -> Int
 nHojas Hoja = 1 
 nHojas(Nodo x l r) = nHojas l + nHojas r
